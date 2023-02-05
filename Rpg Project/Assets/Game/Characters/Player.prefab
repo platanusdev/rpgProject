@@ -11,7 +11,9 @@ GameObject:
   - component: {fileID: 6440691242434203876}
   - component: {fileID: 613015922}
   - component: {fileID: 5806570279503876953}
+  - component: {fileID: 364321909024041163}
   - component: {fileID: 2305167645142103296}
+  - component: {fileID: 629754825}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -67,6 +69,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98b9e754c24b0174399f598037be16ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &364321909024041163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6440691242434203877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2c101ebbcafdd34a8bf2ae232f01d6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!195 &2305167645142103296
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -89,6 +103,18 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &629754825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6440691242434203877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c719135fd94e25749b614300a119a92e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &6302780648102835969
 PrefabInstance:
   m_ObjectHideFlags: 0
